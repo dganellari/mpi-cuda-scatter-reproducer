@@ -3,6 +3,7 @@
 git clone https://github.com/dganellari/mpi-cuda-scatter-reproducer.git
 
 module swap PrgEnv-cray PrgEnv-gnu
+
 module load cudatoolkit
 
 salloc -N4 -Cgpu
